@@ -1,0 +1,151 @@
+header{
+  font-family: Impact;
+  font-weight: lighter;
+  font-size: 70px;
+}
+
+a{
+  color: #EB504E;
+}
+
+p{
+  font-family: Verdana;
+  font-size: 15px;
+}
+
+.hshade{
+  font-family: Impact;
+  font-weight: lighter;
+  background-color: black;
+  border-radius: 25px;
+  border-color: #EB504E;
+  color: white;
+  text-indent: 20px;
+  padding: 5px;
+
+
+}
+
+
+.imageheader{
+  display: block;
+  width: 70%;
+  border-bottom: 3px solid black;
+  margin: auto;
+
+
+
+}
+
+.floatright{
+  float: right;
+  margin: 0 0  10px 10px;
+  width: 70%;
+
+
+}
+
+.floatleft{
+  float: left;;
+  padding: 40px;
+  margin: 10px 0px 10px 10px;
+  width: 65%;
+
+
+
+}
+
+.pagewrapper{
+  font-family: sans-serif;
+
+}
+
+.summary{
+  margin-left: 70px;
+  font-size: 15px;
+  font-weight: bolder;
+  border-color: #FF9962;
+  border-style: outset;
+  text-align: center;
+  width: 15%;
+  border-radius: 25px;
+  background-color: #F9D852;
+}
+
+.psummary{
+  font-family: sans-serif;;
+  font-weight: lighter;
+  font-style: oblique;
+  font-size: 20px;
+
+}
+
+.preamble{
+  display: block;
+  text-align: left;
+
+}
+
+.supporting{
+  display: block;
+  padding: 10px;
+  background-color: #D2C799;
+}
+
+
+.sidebar{
+  margin: 100px;
+  width: 20%;
+}
+
+.hside{
+  font-family: Impact;
+  font-weight: lighter;
+  background-color: #FC9E0F;
+  border-radius: 25px;
+  text-indent: 30px;
+  text-shadow: 10px;
+
+
+}
+
+.wrapper{
+  color: black;
+  font-family: sans-serif;
+  font-size: 15px;
+
+
+}
+
+.design-name{
+  color:#952233;
+}
+.designer-name{
+
+  color: #EB504E;
+}
+
+.link-archives{
+  color: #72AE4B;
+}
+
+.link-resources{
+  color: #369EDE;
+}
+
+.zen-resources{
+  margin-bottom: 50px;
+}
+.aref{
+  padding: 20px;
+  border-radius: 70px;
+  background: lightgrey;
+  color: black;
+
+}
+
+a.aref:hover,a.aref:active{
+  background: black;
+  color: white;
+
+}
