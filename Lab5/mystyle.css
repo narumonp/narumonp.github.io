@@ -1,0 +1,95 @@
+@font-face {
+    font-family: childFont;
+    src: url(BoonJot-Regular.ttf);
+}
+
+@font-face {
+    font-family: adultFont;
+    src: url(CSPraKas.otf);
+}
+
+
+
+body{
+  //background-image: url(http://www.theallchurch.com/wp-content/uploads/2016/01/BG-81.jpg);
+  //background-image: url(http://whiletravelling.com/wp-content/uploads/wat-arun-sunset3-1050x554.jpg);
+  background-image: url(bg.jpg);
+  background-size: cover;
+
+
+}
+
+
+img{
+
+  display:block;
+  margin: auto auto;
+
+}
+
+.imageheader{
+  display: block;
+  width: 100%;
+  margin-top: 60px;
+  margin-left: auto;
+  opacity: 0.9;
+}
+
+#child{
+  background-image: url(bg_cartoon.png);
+  color:black;
+
+}
+fieldset{
+  width: 35%;
+  color: black;
+  font-family: adultFont;
+  margin-top: 20px;
+  margin-left: 650px;
+
+}
+input{
+  margin: 25px;
+}
+h3{
+  font-family: adultFont;
+}
+
+span{
+  color: black;
+  margin-left: 20px;
+  font-size: 15px;
+}
+
+.button{
+  margin-left: 170px;
+  color: white;
+  font-size: 20px;
+  background-color: black;
+  font-family: adultFont;
+  border-radius: 10px;
+  border-color: black;
+}
+
+
+
+.button:hover{
+  background-color: white;
+  color: black;
+  border-color: white;
+}
+#info input.error {
+  border-color: #e77776;
+}
+
+.error{
+  background: #f8dbdb;
+}
+
+.searchOther{
+  margin-top: 50px;
+  margin-left: 680px;
+}
+.button #search{
+  margin-left: 50px;
+}
