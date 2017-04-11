@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+<title> Lab 4 : Info </title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<img class="imageheader  " src="header.png">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<link rel="stylesheet" href="mystyle.css">
+<script src="jquery-3.1.1.min.js"></script>
+<script src="myscript.js"></script>
+<script type="text/javascript">
+
+</script>
+</head>
+
+
+<body class="bodyinfo" id="bodyinfo" method="post">
+<div id = "divform">
+  <form id = "info" >
+    <fieldset id="infofield">
+      <h1 id ="testlab"></h1>
+      <legend><h1>โปรดกรอกข้อมูล </h1></legend>
+      <h3>ชื่อ :
+      <input type="text" id = "firstname" name="firstname">
+      <span id="errorfname"></span><br>
+      นามสกุล :
+      <input type="text" id = "lastname" name="lastname">
+      <span id="errorlname"></span><br>
+      วันเกิด :
+      <input type="text" id = "birthday" name="birthday">
+      <span id="errorbday">ตัวอย่าง : วัน/เดือน/ปีพ.ศ</span><br>
+      เพศ    :
+      <input type="radio" id="gender" name="gender" value="ชาย" >ชาย</input>
+      <input type="radio" id="gender" name="gender" value="หญิง" checked="checked">หญิง</input>
+      <span id="errorgender"></span><br>
+      จังหวัด  :
+      <input type="text" id="province" n  ame="province">
+      <span id="errorprovince"></span><br>
+      <input class="button" type="reset" id="cancle" name="cancle" value="ยกเลิก"/>
+      <input class="button" type="button" id="submit" name="submit" value="ตกลง"/>
+
+    </fieldset>
+    <fieldset id="mottofield" style="display:none">
+      <img id="sign" src="">
+      <p id="showmotto2" ></p>
+    </fieldset>
+  </form>
+</body>
+</html>
