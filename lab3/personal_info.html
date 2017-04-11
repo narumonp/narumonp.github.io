@@ -1,0 +1,237 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title> Personal Info. Page </title>
+  <img class="imageheader  " src="header.gif">
+  <script src="myjavascript.js"></script>
+  <link rel="stylesheet" href="mystylesheet.css">
+</head>
+
+
+<body>
+<div class="personalinformation">
+    <div class="personalinformationleft">
+      <div class = "name ">
+        <form id='personalform'>
+          <label for="fname">First Name </label>
+          <input type="text" id="fname" name="fname" value=""><br>
+          <label for="lname">Last Name </label>
+          <input type="text" id="lname" name="lname" value="">
+      </div>
+
+      <div class="address">
+        <label for="address">Address</label>
+        <label for="housenumber" style="font-size:20px">House Number</label>
+        <input type="text" id="housenumber" name="housenumber" value="" >
+        <label for="street" style="font-size:20px">Street</label>
+        <input type="text" id="street" name="street" value="">
+        <label for="city" style="font-size:20px">City</label>
+        <input type="text" id="city" name="city" value="">
+        <label for="province" style="font-size:20px">Province</label>
+        <input type="text" id="province" name="province" value="">
+        <label for="zipcode" style="font-size:20px">Zipcode</label>
+        <input type="number" id="zipcode" name="zipcode" value="">
+      </div>
+  </div>
+
+  <div class="personalinformationright">
+    <div class = "phone">
+      <label for="phonenumber">Phone number</label>
+      <input type="text" id="phonenumber" name="phonenumber" value="e.g.+662-xxx-xxx" onfocus="this.value='+662';" ><br>
+      <label for="cellphonenumber">cell phone number </label>
+      <input type="text" id="cellphonenumber" name="cellphonenumber" value="e.g.+66xx-xxx-xxxx" onfocus="this.value='+66';">
+    </div>
+
+    <div class = "birthday">
+      <label for="birthday">Birth Day</label><br>
+      <div class="dropdown">
+        <select class="dropbtn" title="DAY" id="Day" style="height:50px">
+            <option value="day">Day </option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12 </option>
+            <option value="13">13</option>
+            <option value="14">14</option>
+            <option value="15">15</option>
+            <option value="16">16</option>
+            <option value="17">17</option>
+            <option value="18">18</option>
+            <option value="19">19</option>
+            <option value="20">20</option>
+            <option value="21">21</option>
+            <option value="22">22</option>
+            <option value="23">23</option>
+            <option value="24">24</option>
+            <option value="25">25</option>
+            <option value="26">26</option>
+            <option value="27">27</option>
+            <option value="28">29</option>
+            <option value="29">29</option>
+            <option value="31">30</option>
+            <option value="23">31</option>
+        </select>
+      </div>
+
+      <div class="dropdown" >
+        <select  class="dropbtn" title="MONTH" id="Month" >
+            <option value="January">Month</option>
+            <option value="January">January</option>
+            <option value="Febuary">Febuary</option>
+            <option value="March">March</option>
+            <option value="April">April</option>
+            <option value="May">May</option>
+            <option value="June">June</option>
+            <option value="July">July</option>
+            <option value="August">August</option>
+            <option value="September">September</option>
+            <option value="October">October</option>
+            <option value="November">November</option>
+            <option value="December">December</option>
+          </div>
+        </select>
+      </div>
+
+      <div class="dropdown">
+        <select class="dropbtn" title="YEAR" id="Year">
+          <div class="dropdown-content">
+            <option value="1987">1987</option>
+            <option value="1988">1988</option>
+            <option value="1990">1990</option>
+            <option value="1991">1991</option>
+            <option value="1992">1992</option>
+            <option value="1993">1993</option>
+            <option value="1994">1994</option>
+            <option value="1995">1995</option>
+            <option value="1996">1996</option>
+            <option value="1997">1997</option>
+            <option value="1998">1998</option>
+            <option value="1999">1999</option>
+            <option value="2000">2000</option>
+            <option value="2001">2001</option>
+            <option value="2002">2002</option>
+            <option value="2003">2003</option>
+            <option value="2004">2004</option>
+            <option value="2005">2005</option>
+            <option value="2006">2006</option>
+            <option value="2007">2007</option>
+            <option value="2008">2008</option>
+            <option value="2009">2009</option>
+            <option value="2010">2010</option>
+            <option value="2011">2011</option>
+            <option value="2012">2012</option>
+            <option value="2013">2013</option>
+            <option value="2014">2014</option>
+            <option value="2015">2015</option>
+            <option value="2016">2016</option>
+            <option value="2017">2017</option>
+          </div>
+        </select>
+      </div>
+
+      <br><label for="birthdayofweek">Birth Day of Week</label><br>
+      <div class="dropdown">
+        <select class="dropbtn" title="BirthDayOfWeek" style="height:50px">
+            <option value="day">Birth Day of Week</option>
+            <option value="Monday">Monday</option>
+            <option value="Tuesday">Tuesday</option>
+            <option value="Wednesday">Wednesday</option>
+            <option value="Thursday">Thursday</option>
+            <option value="Friday">Friday</option>
+            <option value="Saturday">Saturday</option>
+            <option value="Sunday">Sunday</option>
+        </select>
+      </div>
+    </div>
+    <div class = "citizennumber">
+      <br><label for="citizennumber">Citizen Number</label>
+      <input type="text" id="citizennumber" name="citizennumber" value="" onfocus="this.value='';"><br>
+    </div>
+  </div>
+</div>
+
+<div class = "zodiac">
+    <label for="zodiacsign">Zodiac Sign</label>
+
+    <div class="image">
+      <button class="zodiacsign"  type="submit" style="border:0;background:transparent;width:100px;height:100px" >
+        <img src="gemini.png" id="geminibut"   style="border: 0;width:100px;height:100px" onclick="document.getElementById('geminibut').style.bordr='3'">  </button>
+      <button class="zodiacsign"  type="submit" style="border: 0;background:transparent; width:100px;height:100px">
+        <img src="libra.png" alt="Libra"style="border: 0;width:100px;height:100px">  </button>
+      <button class="zodiacsign"  type="submit" style="border: 0; background:transparent;width:100px;height:100px">
+        <img src="aquarious.png" alt="Aquarious" style="border: 0;width:100px;height:100px">  </button>
+      <button class="zodiacsign"  type="submit" style="border: 0; background:transparent;width:100px;height:100px">
+        <img src="cancer.png" alt="Cancer" style="border: 0; width:100px;height:100px">  </button>
+      <button class="zodiacsign"  type="submit" style="border: 0; background:transparent;width:100px;height:100px">
+        <img src="pisces.png" alt="Pisces" style="border: 0; width:100px;height:100px">  </button>
+      <button class="zodiacsign"  type="submit" style="border: 0; background:transparent;width:100px;height:100px">
+        <img src="scorpio.png" alt="Scorpio" style="border: 0; width:100px;height:100px">  </button>
+  </div>
+
+  <div class="image">
+    <button class="zodiacsign"  type="submit" style="border: 0; background:transparent;width:100px;height:100px">
+        <img src="ariesi.png" alt="Aries" style="border: 0; width:100px;height:100px">  </button>
+    <button class="zodiacsign"  type="submit" style="border: 0; background:transparent;width:100px;height:100px">
+        <img src="leo.png" alt="Leo" style="border: 0; width:100px;height:100px">  </button>
+    <button class="zodiacsign"  type="submit" style="border: 0; background:transparent;width:100px;height:100px">
+        <img src="sagittarius.png" alt="Sagittarius" style="border: 0; width:100px;height:100px">  </button>
+    <button class="zodiacsign"  type="submit" style="border: 0; background:transparent;width:100px;height:100px">
+        <img src="taurus.png" alt="Taurus" style="border: 0; width:100px;height:100px">  </button>
+    <button class="zodiacsign"  type="submit" style="border: 0;background:transparent; width:100px;height:100px">
+        <img src="vergoi.png" alt="Vergo" style="border: 0; width:100px;height:100px">  </button>
+    <button class="zodiacsign"  type="submit" style="border: 0;background:transparent; width:100px;height:100px">
+        <img src="carpicorni.png" alt="Carpicorn" style="border: 0; width:100px;height:100px">  </button>
+
+  </div>
+
+    <label for="zodiacyear">Zodiac Year</label>
+    <div class="image">
+      <button class="zodiacyear"  type="submit" style="border: 0; background:transparent;width:100px;height:100px">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Rat.svg/500px-Rat.svg.png" alt="ชวด" style="border: 0; width:100px;height:100px">
+      <button class="zodiacyear"  type="submit" style="border: 0; background:transparent;width:100px;height:100px">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Ox.svg/500px-Ox.svg.png" alt="ฉลู" style="border: 0; width:100px;height:100px">
+      <button class="zodiacyear"  type="submit" style="border: 0; background:transparent;width:100px;height:100px">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Tiger.svg/500px-Tiger.svg.png" alt="ขาล"  style="border: 0; width:100px;height:100px">
+      <button class="zodiacyear"  type="submit" style="border: 0; background:transparent;width:100px;height:100px">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Rabbit.svg/500px-Rabbit.svg.png" alt="เถาะ" style="border: 0; width:100px;height:100px">
+      <button class="zodiacyear"  type="submit" style="border: 0; background:transparent;width:100px;height:100px">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Dragon.svg/500px-Dragon.svg.png" alt="มะโรง" style="border: 0; width:100px;height:100px">
+      <button class="zodiacyear"  type="submit" style="border: 0; background:transparent;width:100px;height:100px">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Snake.svg/500px-Snake.svg.png" alt="มะเส็ง" style="border: 0; width:100px;height:100px">
+      </button>
+    </div>
+
+    <div class="image">
+      <button class="zodiacyear"  type="submit" style="border: 0; background:transparent;width:100px;height:100px">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Horse.svg/500px-Horse.svg.png" alt="มะเมีย" style="border: 0; width:100px;height:100px">
+      <button class="zodiacyear"  type="submit" style="border: 0; background:transparent;width:100px;height:100px">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Goat.svg/500px-Goat.svg.png" alt="มะแม" style="border: 0; width:100px;height:100px">
+      <button class="zodiacyear"  type="submit" style="border: 0; background:transparent;width:100px;height:100px">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Monkey_2.svg/500px-Monkey_2.svg.png" alt="วอก" style="border: 0; width:100px;height:100px">
+      <button class="zodiacyear"  type="submit" style="border: 0; background:transparent;width:100px;height:100px">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Rooster.svg/500px-Rooster.svg.png" alt="ระกา" style="border: 0; width:100px;height:100px">
+      <button class="zodiacyear"  type="submit" style="border: 0; background:transparent;width:100px;height:100px">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Dog_2.svg/500px-Dog_2.svg.png" alt="จอ" style="border: 0; width:100px;height:100px">
+      <button class="zodiacyear"  type="submit" style="border: 0; background:transparent;width:100px;height:100px">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Boar.svg/500px-Boar.svg.png" alt="กุน" style="border: 0; width:100px;height:100px">
+      </button>
+    </div>
+
+    <footer>
+      <input type="button" class="button savebutton" onclick="saveForm()" value="Save">
+      <input type="button" class="button canclebutton" onclick="cancleForm()" value="Cancle">
+      <input type="button" class="button submitbutton" onclick="submitForm()" value="Submit">
+    </footer>
+
+  </form>
+</body>
+</html>
